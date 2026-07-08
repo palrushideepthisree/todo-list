@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Todo List
 
 A simple Todo List application built using React to demonstrate the fundamentals of modern frontend development. The project showcases React's component-based architecture, state management using the `useState` hook, event handling, and dynamic rendering of data through an interactive user interface.
@@ -70,3 +71,7 @@ npm run dev
 ## Author
 
 Deepthi Sree
+=======
+# todo-list
+A simple Todo List built with React
+>>>>>>> 9e4b5346c5a9dfa9d1a00670379f4e8676ed22ef
