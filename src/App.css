@@ -1,0 +1,140 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Container */
+div {
+  text-align: center;
+}
+
+/* Todo Card */
+body > div,
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+#root > div {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #4cafef;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #0077ff;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  margin-left: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0077ff;
+  transform: scale(1.05);
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+/* Each Task */
+li {
+  background: #f5f5f5;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 18px;
+  color: #333;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete Button */
+li button {
+  background: #ff4d4d;
+  margin-left: 15px;
+}
+
+li button:hover {
+  background: #d60000;
+}
+
+/* Clear Button */
+button:last-child {
+  margin-top: 20px;
+  background: #444;
+}
+
+button:last-child:hover {
+  background: black;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  #root > div {
+    width: 90%;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  li {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li button {
+    width: 100%;
+  }
+}
