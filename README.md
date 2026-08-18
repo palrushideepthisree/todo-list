@@ -73,8 +73,3 @@ npm run dev
 ##Live Demo
 https://palrushideepthisree.github.io/todo-list/
 
-Deepthi Sree
-=======
-# todo-list
-A simple Todo List built with React
->>>>>>> 9e4b5346c5a9dfa9d1a00670379f4e8676ed22ef
