@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React Todo List
 
 A simple Todo List application built using React to demonstrate the fundamentals of modern frontend development. The project showcases React's component-based architecture, state management using the `useState` hook, event handling, and dynamic rendering of data through an interactive user interface.
@@ -69,6 +68,10 @@ npm run dev
 - Add task priorities and due dates
 
 ## Author
+**Deepthi Sree**
+
+##Live Demo
+https://palrushideepthisree.github.io/todo-list/
 
 Deepthi Sree
 =======
