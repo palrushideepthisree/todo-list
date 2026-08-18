@@ -70,6 +70,7 @@ npm run dev
 ## Author
 **Deepthi Sree**
 
-##Live Demo
+## Live Demo
+
 https://palrushideepthisree.github.io/todo-list/
 
